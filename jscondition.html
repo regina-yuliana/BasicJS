@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS Condition</title>
+    </head>
+    <body>
+        <h3>JAVASCRIPT CASE CONDITION</h3>
+        <p id="condition"></p>
+
+        <script>
+            x = [Math.floor(Math.random()*11)];
+            y = [Math.floor(Math.random()*11)];
+            
+            if (x > y) {
+                txt = "Horee saya bisa!";
+            } else if (x == y){
+                txt = "Sedikit lagi";
+            } else {
+                txt = "Kurang beruntung";
+            }
+            alert(txt);
+            document.getElementById("condition").innerHTML = "Jika x: " + x + " dan y: " + y;
+        </script>
+    </body>
+</html>
